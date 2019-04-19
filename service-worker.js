@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/joeiben/react-employees/precache-manifest.113fd8a13f42b54c61a867c247201139.js"
+  "/react-employees/precache-manifest.825b7b73353719dd14fd9c6f001ecedc.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/joeiben/react-employees/index.html", {
+workbox.routing.registerNavigationRoute("/react-employees/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
